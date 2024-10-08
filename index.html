@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPORTFOLIO</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">MyPortfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()" ></i>
+                </ul>
+                <i class='bx bx-menu'onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONT-END DEVELOPER</p>
+                <h1>Hi , I'm <span>Mohammed Rafick</span>  <br> From TamilNadu</h1>
+            </div>
+        </div>
+    </header>
+    <!----------------------------------------------About---------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-cal-1">
+                <img src="IMG_20240807_184238.jpg" >
+            </div>
+            <div class="about-cal-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm MOHAMMED RAFICK, a recent graduate with a passion for front-end web development. I graduated in 2024 with a degree in Bsc.ComputerScience from Jamal Mohamed collage at Trichy, where I developed a strong foundation in front-end technologies.
+I’m particularly skilled in HTML, CSS, and JavaScript, and I have hands-on experience with React.js, which has fueled my enthusiasm for creating dynamic and interactive user interfaces. My projects range from simple static websites to complex single-page applications, all crafted with
+ a keen eye for detail and user experience.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link"onclick="opentab('experience')">Soft Skills</p>
+                    <p class="tab-links active-link"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span><br>Proficient in semantic HTML for creating structured and accessible web content.
+Experience with HTML5 features like forms, multimedia elements, and APIs.</li>
+                        <li><span>CSS</span><br>Skilled in CSS3 for styling and layout, including Flexbox and Grid for responsive design.</li>
+                        <li><span>JavaScript</span><br>Proficient in vanilla JavaScript for dynamic interactions and functionality.
+Experience with ES6+ features, including arrow functions, promises, and async/await.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>Problem Solving</span><br>Demonstrated ability to tackle complex challenges with creative solutions and debugging techniques.</li>
+                        <li><span>Collaboration</span><br>Proven experience working in team environments, utilizing tools like Slack and Trello for effective communication and project management.</li>
+                        <li><span>Continuous Learning</span><br>Commitment to staying updated with the latest industry trends and continuously improving through online courses and personal projects.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-content" id="Education">
+                    <ul>
+                        <li><span>10th Standard at John Dewey Matric.Hr.Sec School</span><br> 2018 - 2019  Percentage:64%</li>
+                        <li><span>12th Standard at John Dewey Matric.Hr.Sec School </span><br>2020 - 2021  Percentage:74%</li>
+                        <li><span>Bsc.Computer Science At Jamal Mohamed college </span><br>  2021 - 2024  CGPA:7.5</li>
+                        
+                        
+                        
+
+                    </ul>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+<!---------------------------------------------service----------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="services-list">
+          <div>
+            <i class='bx bx-code'></i>
+            <h2>WEB DEVELOPER</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                elit. Iusto, voluptas!</p>
+                <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class='bx bx-crop' ></i>
+            <h2>FRONT END DEVELOPER</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                elit. Iusto, voluptas!</p>
+                <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class='bx bxl-nodejs'></i>
+            <h2>MERN STACK DEVELOPER</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                elit. Iusto, voluptas!</p>
+                <a href="#">Learn more</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------portfolio---------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="8.PNG" alt="">
+                <div class="layer">
+                    <h3>Interactive Bookmark Webpage</h3>
+                    <p>This project is an interactive web application designed to help users manage their book collection efficiently. Built using HTML, CSS, and JavaScript, the application allows users to save and organize information about their favorite books. The core functionalities include:
+
+                    </p>
+                    <a href="https://gleeful-squirrel-136f0c.netlify.app/"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="4.PNG" alt="">
+                <div class="layer">
+                    <h3>YouTube Clone Webpage</h3>
+                    <p>
+                        This project is a static webpage designed as a clone of YouTube, created using only HTML and CSS. The goal was to replicate the look and feel of the popular
+                         video-sharing platform while demonstrating proficiency in front-end web design.
+                    </p>
+                    <a href="https://youtubetemplatebyrafik.netlify.app/"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="7.PNG" alt="">
+                <div class="layer">
+                    <h3>Clothing eCommerce Webpage</h3>
+                    <p>This project is an eCommerce webpage designed for a clothing store, built using HTML, CSS, and JavaScript. The webpage aims to provide a visually appealing and functional online shopping
+                         experience, showcasing a range of clothing items with interactive features.
+
+                    </p>
+                    <a href="https://voluble-lamington-6321cb.netlify.app/"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class='bx bxs-send' ></i>mohammedrafick2k3@gmail.com</p>
+                <p><i class='bx bxs-phone' ></i>7708028479</p>
+                <div class="social-icon">
+                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href=""><i class='bx bxl-github' ></i></a>
+
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="text" name="name" placeholder="your name"required>
+                    <input type="text"name="email" placeholder="your email" required> 
+                    <textarea name="message"row="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copy-right"><p>
+        copyright @ rafi <i class='bx bxs-heart'></i>front-end developer
+    </p></div>
+</div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
